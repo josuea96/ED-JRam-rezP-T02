@@ -65,7 +65,7 @@ public class linealListClass<T> {
                 System.out.print("[ " + point.data + " ] " + " ==> ");//Se imprime el dato encontrado en el nodo
                 point = point.next;//Se recorre la posición del puntero en 1
             }
-            System.out.print(" ==> ☠");//Se imprime una calavera para indicar que es null
+            System.out.print("☠");//Se imprime una calavera para indicar que es null
         }
         else{
             System.out.println("La lista esta vacia");//Si la lista esta vacia se imprime un mensaje

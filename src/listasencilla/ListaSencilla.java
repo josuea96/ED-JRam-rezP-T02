@@ -18,12 +18,12 @@ public class ListaSencilla {
     public static void main(String[] args) {
         
         linealListClass list = new linealListClass();
-        list.insertFirst(3);
-        list.insertFirst(3.563); 
-        list.insertFirst("Hola Compañero"); 
-        list.insertFirst(true); 
-        list.insertFirst("H");
-        list.insertFinal(false);
+        list.insertFirst(45);
+        list.insertFirst("Hola"); 
+        list.insertFirst(12.42); 
+        list.insertFirst(false); 
+        list.insertFirst("#");
+        list.insertFinal(true);
         list.showList();
         System.out.println("");
         list.eraseLast();
